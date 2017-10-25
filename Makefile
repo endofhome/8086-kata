@@ -6,7 +6,7 @@ build: 01-char.com
 clean:
 	rm *.com
 
-debug:
+debug: build
 	/Applications/DOSBox.app/Contents/MacOS/DOSBox 01-char.bat
 
 dos:
